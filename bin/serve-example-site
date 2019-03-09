@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+
+echo "Building the example macrodreams site..."
+bundle exec jekyll build --config test/example/_config.yml -s test/example -d test/example/_site
+echo "Serving the example macrodreams site..."
+bundle exec jekyll serve --config test/example/_config.yml -s test/example -d test/example/_site

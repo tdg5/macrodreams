@@ -1,9 +1,11 @@
 /.bundle/
+/.sass-cache
 /.yardoc
+/Gemfile.lock
 /_yardoc/
 /coverage/
 /doc/
 /pkg/
 /spec/reports/
+/test/example/_site
 /tmp/
-Gemfile.lock
